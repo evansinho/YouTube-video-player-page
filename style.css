@@ -11,6 +11,7 @@ html body {
   margin: 0;
   padding: 0;
   height: 100%;
+  background-color:#f9f9f9;
 }
 
 a {
@@ -35,21 +36,41 @@ p {
 
 #navbar {
   display: grid;
-  grid-template-columns: 5% 15% 50% 20%;
+  grid-template-columns: 5% 15% 60% 20%;
   padding-top: 10px;
   margin-left: 15px;
+  background-color: #fff;
+  padding-bottom: 20px;
 }
 
 #navbar .navbar-icon ul li {
   display: inline-block;
+  margin-left: 50px;
 }
 
 #navbar .search-input input {
-  width: 500px;
+  width: 700px;
   height: 30px;
+  padding: 10px;
 }
 
 #navbar .search-input button {
-  width: 40px;
+  width: 60px;
   height: 30px;
+  
 }
+
+#navbar .navbar-icon ul{
+  margin-left: 70px;
+}
+
+#navbar .search-input{
+  margin-left: 30px;
+}
+
+#navbar .nav-img{
+  margin: -8px;
+}
+
+/* Video Section */
+
