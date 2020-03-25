@@ -1,0 +1,55 @@
+/*****universal styles******/
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html body {
+  font-size: 16px;
+  line-height: 1.4;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3 {
+  padding-bottom: 20px;
+}
+
+p {
+  margin: 10px 0px;
+}
+
+/******Navigation Bar*****/
+
+#navbar {
+  display: grid;
+  grid-template-columns: 5% 15% 50% 20%;
+  padding-top: 10px;
+  margin-left: 15px;
+}
+
+#navbar .navbar-icon ul li {
+  display: inline-block;
+}
+
+#navbar .search-input input {
+  width: 500px;
+  height: 30px;
+}
+
+#navbar .search-input button {
+  width: 40px;
+  height: 30px;
+}
