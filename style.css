@@ -11,7 +11,7 @@ html body {
   margin: 0;
   padding: 0;
   height: 100%;
-  background-color:#f9f9f9;
+  background-color: #f9f9f9;
 }
 
 a {
@@ -36,41 +36,69 @@ p {
 
 #navbar {
   display: grid;
-  grid-template-columns: 5% 15% 60% 20%;
-  padding-top: 10px;
-  margin-left: 15px;
+  grid-template-columns: 2% 15% 60% 20%;
+  padding-top: 15px;
+  padding-left: 30px;
   background-color: #fff;
-  padding-bottom: 20px;
+  padding-bottom: -3px;
+  width: 100%;
 }
 
 #navbar .navbar-icon ul li {
   display: inline-block;
-  margin-left: 50px;
+  margin-left: 20px;
 }
 
 #navbar .search-input input {
-  width: 700px;
-  height: 30px;
+  width: 550px;
+  height: 35px;
   padding: 10px;
+  border-radius: 2px;
 }
 
 #navbar .search-input button {
   width: 60px;
-  height: 30px;
-  
+  height: 35px;
+  background-color: #f9f9f9;
+  padding-left: 0px;
 }
 
-#navbar .navbar-icon ul{
+#navbar .navbar-icon ul {
   margin-left: 70px;
 }
 
-#navbar .search-input{
-  margin-left: 30px;
+#navbar .search-input {
+  margin-left: 80px;
+  padding-bottom: 15px;
 }
 
-#navbar .nav-img{
-  margin: -8px;
+#navbar .nav-img {
+  margin-top: -10px;
+}
+
+#navbar .nav-img img {
+  margin-left: -5px;
+  margin-top: 2px;
+  width: 120px;
+}
+
+#navbar .nav-icon {
+  padding-top: 7px;
 }
 
 /* Video Section */
 
+#video-section {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  max-width: 1000px;
+}
+
+#video {
+  margin-left: -80px;
+}
+
+aside {
+  margin-right: 130px; 
+}
