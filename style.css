@@ -55,13 +55,6 @@ p {
   border-radius: 2px;
 }
 
-#navbar .search-input button {
-  width: 60px;
-  height: 35px;
-  background-color: #f9f9f9;
-  padding-left: 0;
-}
-
 #navbar .search-input {
   margin-left: 80px;
   padding-bottom: 15px;
@@ -197,16 +190,16 @@ aside hr {
   height: 100%;
 }
 
-#navbar .nav-img img {
-  margin-left: -5px;
-  margin-top: 2px;
-  width: 120px;
-}
-
 .side-videos img {
   width: 180px;
   height: 100px;
   cursor: pointer;
+}
+
+#navbar .nav-img img {
+  margin-left: -5px;
+  margin-top: 2px;
+  width: 120px;
 }
 
 .icon-container {
@@ -289,6 +282,13 @@ footer .footer-content {
 .footer-content button {
   padding: 10px;
   margin: 10px;
+}
+
+#navbar .search-input button {
+  width: 60px;
+  height: 35px;
+  background-color: #f9f9f9;
+  padding-left: 0;
 }
 
 #navbar .navbar-icon ul button {
