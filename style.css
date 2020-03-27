@@ -150,7 +150,7 @@ p {
   color: #6a6c91;
 }
 
-#show-more {
+.show-more {
   color: #6a6c91;
   text-align: center;
   padding-top: 10px;
@@ -171,7 +171,99 @@ aside hr{
 }
 
 /****** Decription******/
+.video-description{
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 10px;
+}
 
+.video-caption{
+  display: flex;
+  width: 100%;
+}
+
+.subscribe{
+  margin-left: 10px;
+  padding-top: 5px;
+  width: 120px;
+}
+
+.subscribe button{
+  color: #fff;
+  background-color: red;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.subscribe i{
+  color: #fff;
+}
+
+.views{
+  margin-left: 430px;
+  padding-top: 30px;
+}
+
+.views p{
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.avatar{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.avatar img{
+  width: 100%;
+  height: 100%;
+}
+
+.icon-container{
+  padding-top: 10px;
+  display: flex;
+  width: 100%;
+}
+
+.video-icons ul{
+  display: flex;
+}
+
+.left{
+  margin-left: 410px;
+}
+
+.left ul li{
+  margin-left: 10px;
+  font-size: 13px;
+}
+
+.right ul li{
+  margin-right: 10px;
+  font-size: 13px;
+}
+
+.content{
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.content h3{
+  padding-bottom: 0px;
+}
+
+.content p{
+  font-size: 13px;
+  color: #909090;
+}
+
+.content a{
+  text-align: center;
+  color: #909090;
+}
 
 /* Footer Section */
 
