@@ -1,7 +1,7 @@
 # YouTube-video-player-page
 
 A clone of the YouTube video player page
-![A Snapshot of the YouTube video player page](/images/snapshot.PNG)
+![A Snapshot of the YouTube video player page](/images/snapshot1.PNG)
 
 ## The major features in this project are:
 
@@ -19,12 +19,12 @@ A clone of the YouTube video player page
 
 ## Live Demo
 
-[Link to the application]`https://evansinho.github.io/YouTube-video-player-page/.`
+Link to the application -`https://evansinho.github.io/YouTube-video-player-page/.`
 
 ## Getting Started
 
 1. Clone this Repo using `https://github.com/evansinho/YouTube-video-player-page.git`
-2. Navigate to [localhost:5500/index.html](localhost:5500/index.html) in your Browser to access the page
+2. Navigate to `localhost:5500/index.html` in your Browser to access the page
 
 ## Authors
 

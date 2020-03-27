@@ -164,6 +164,7 @@ aside {
   padding-top: 10px;
   padding-bottom: 20px;
   background-color: #fff;
+  box-shadow:  1px 1px rgba(104, 104, 104, 0.8);
 }
 
 aside hr{
@@ -173,6 +174,7 @@ aside hr{
 /****** Decription******/
 .video-description{
   background-color: #fff;
+  box-shadow:  1px 1px rgba(104, 104, 104, 0.8);
   padding: 20px;
   margin-top: 10px;
 }
@@ -247,6 +249,7 @@ aside hr{
 
 .content{
   background-color: #fff;
+  box-shadow:  1px 1px rgba(104, 104, 104, 0.8);
   padding: 20px;
   margin-top: 20px;
 }
