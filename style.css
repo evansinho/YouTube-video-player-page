@@ -137,14 +137,8 @@ aside hr {
 
 .video-description {
   background-color: #fff;
-  box-shadow: 1px 1px rgba(104, 104, 104, 0.8);
-  padding: 20px;
+  padding: 10px;
   margin-top: 10px;
-}
-
-.video-caption {
-  display: flex;
-  width: 100%;
 }
 
 .subscribe {
@@ -154,28 +148,25 @@ aside hr {
 }
 
 .subscribe button {
-  color: #fff;
-  background-color: red;
+  color: #909090;
+  background-color: #e0e0e0;
   padding: 5px;
-  border-radius: 5px;
+  border-radius: 3px;
+  margin-right: 10px;
 }
 
-.subscribe i {
-  color: #fff;
+.video-caption {
+  display: grid;
+  grid-template-columns: 55% 45%;
+  width: 100%;
+  margin-top: -20px;
+  margin-bottom: 10px;
+  padding: 5px 5px 20px;
+  border-bottom: 0.5px solid #e0e0e0;
 }
 
 .slidecontainer h5 i {
   color: blue;
-}
-
-.views {
-  margin-left: 430px;
-  padding-top: 30px;
-}
-
-.views p {
-  font-size: 14px;
-  font-weight: 500;
 }
 
 .avatar {
@@ -190,6 +181,13 @@ aside hr {
   height: 100%;
 }
 
+.avatar-container {
+  display: grid;
+  grid-template-columns: 10% 70% 20%;
+  border-bottom: 0.5px solid #e0e0e0;
+  padding-bottom: 20px;
+}
+
 .side-videos img {
   width: 180px;
   height: 100px;
@@ -202,32 +200,12 @@ aside hr {
   width: 120px;
 }
 
-.icon-container {
-  padding-top: 10px;
-  display: flex;
-  width: 100%;
-}
-
 .video-icons ul {
   display: flex;
 }
 
 #navbar .navbar-icon ul {
-  margin-left: 50px;
-}
-
-.left {
-  margin-left: 410px;
-}
-
-.left ul li {
-  margin-left: 10px;
-  font-size: 13px;
-}
-
-.right ul li {
-  margin-right: 10px;
-  font-size: 13px;
+  margin-left: 70px;
 }
 
 footer .second li {
@@ -238,20 +216,24 @@ footer .third li {
   padding: 20px;
 }
 
+.video-icons ul li {
+  font-size: 14px;
+  padding-right: 23px;
+}
+
 #navbar .navbar-icon ul li {
   display: inline-block;
   margin-left: 20px;
 }
 
 .content {
-  background-color: #fff;
-  box-shadow: 1px 1px rgba(104, 104, 104, 0.8);
   padding: 20px;
   margin-top: 20px;
 }
 
 .content h3 {
   padding-bottom: 0;
+  font-size: 13px;
 }
 
 .content p {
