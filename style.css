@@ -11,7 +11,7 @@ html body {
   margin: 0;
   padding: 0;
   height: 100%;
-  background-color: #f9f9f9;
+  background-color: #EEEEEE;
 }
 
 a {
@@ -48,9 +48,20 @@ p {
   width: 100%;
 }
 
+#navbar .navbar-icon ul {
+  margin-left: 50px;
+}
+
 #navbar .navbar-icon ul li {
   display: inline-block;
   margin-left: 20px;
+}
+
+#navbar .navbar-icon ul button{
+  padding: 5px;
+  background-color: #167AC6;
+  color: #fff;
+  border-radius: 4px;
 }
 
 #navbar .search-input input {
@@ -65,10 +76,6 @@ p {
   height: 35px;
   background-color: #f9f9f9;
   padding-left: 0px;
-}
-
-#navbar .navbar-icon ul {
-  margin-left: 70px;
 }
 
 #navbar .search-input {
@@ -130,6 +137,7 @@ p {
 .side-videos img {
   width: 180px;
   height: 100px;
+  cursor: pointer;
 }
 
 .side-videos h5 {
@@ -142,113 +150,33 @@ p {
   color: #6a6c91;
 }
 
-aside {
-  margin-left: 20px;
-}
-
 #show-more {
   color: #6a6c91;
-  align-content: center;
+  text-align: center;
+  padding-top: 10px;
+}
+
+/*****Aside****/
+
+aside {
+  margin-left: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  background-color: #fff;
+}
+
+aside hr{
+  width: 350px;
 }
 
 /****** Decription******/
 
-#video h3 {
-  font-size: 20px;
-  font-weight: lighter;
-}
-
-.video-description {
-  display: flex;
-  width: 100%;
-  border-bottom: 1px solid #6a6c91;
-  padding-bottom: 10px;
-}
-
-.video-description ul {
-  display: flex;
-  margin-left: 180px;
-}
-
-.video-description h5 {
-  color: #6a6c91;
-}
-
-.video-description ul li {
-  font-size: 14px;
-  padding: 0px 15px;
-}
-
-#video .video-description ul li i:hover{
-  cursor: pointer;
-}
-
-.description .description-content .avatar {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  margin-right: 10px;
-  overflow: hidden;
-}
-
-.description .description-content .avatar img{
-  width: 100%;
-  height: 100%;
-}
-
-.description .description-content{
-  padding-top: 10px;
-  display: inline-flex;
-}
-
-.description .description-content:hover{
-  cursor: pointer;
-}
-
-.description .description-content h5{
-  padding-top: 8px;
-}
-
- .description .subscribe {
-  display: inline-flex;
-  width: 100%;
-  margin-left:20px;
-}
-
-.description .subscribe button{
-  background-color: red;
-  color: #fff;
-  padding: 5px;
-  margin-right: 10px;
-  border-radius: 2px;
-}
-
-.description .subscribe button:hover{
-  cursor: pointer;
-}
-
-.description .subscribe i{
-  padding-top: 8px;
-}
-
-.description .subscribe{
-  margin-left: 42px;
-}
-
-.description .content{
-  padding-top: 30px;
-  margin-left: 42px;
-}
-
-.description .content p{
-  font-size: small;
-}
 
 /* Footer Section */
 
 footer{
   width: 100%;
-  height: 50px;
   background-color: #fff;
   margin-top: 50px;
   padding-top: 20px;
@@ -284,4 +212,6 @@ footer .third li{
 
 footer .third{
   margin-top: -30px;
+  font-size: 12px;
+  color: #909090;
 }
