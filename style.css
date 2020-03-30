@@ -38,7 +38,7 @@ p {
 
 /****** Navigation Bar *****/
 
-#navbar {
+.navbar {
   display: grid;
   grid-template-columns: 2% 15% 60% 20%;
   padding-top: 15px;
@@ -48,29 +48,29 @@ p {
   width: 100%;
 }
 
-#navbar .search-input input {
+.navbar .search-input input {
   width: 550px;
   height: 35px;
   padding: 10px;
   border-radius: 2px;
 }
 
-#navbar .search-input {
+.navbar .search-input {
   margin-left: 80px;
   padding-bottom: 15px;
 }
 
-#navbar .nav-img {
+.navbar .nav-img {
   margin-top: -10px;
 }
 
-#navbar .nav-icon {
+.navbar .nav-icon {
   padding-top: 7px;
 }
 
 /* Video Section */
 
-#video-section {
+.video-section {
   display: flex;
   flex-direction: row;
   margin: auto;
@@ -78,11 +78,11 @@ p {
   padding-top: 20px;
 }
 
-#video {
+.video {
   margin-left: -100px;
 }
 
-#sidebar {
+.sidebar {
   display: flex;
   padding-bottom: 10px;
 }
@@ -100,6 +100,7 @@ p {
   flex-direction: row;
   padding-bottom: 10px;
   width: 370px;
+  cursor: pointer;
 }
 
 .side-videos h5 {
@@ -153,6 +154,7 @@ aside hr {
   padding: 5px;
   border-radius: 3px;
   margin-right: 10px;
+  cursor: pointer;
 }
 
 .video-caption {
@@ -186,6 +188,7 @@ aside hr {
   grid-template-columns: 10% 70% 20%;
   border-bottom: 0.5px solid #e0e0e0;
   padding-bottom: 20px;
+  cursor: pointer;
 }
 
 .side-videos img {
@@ -194,7 +197,7 @@ aside hr {
   cursor: pointer;
 }
 
-#navbar .nav-img img {
+.navbar .nav-img img {
   margin-left: -5px;
   margin-top: 2px;
   width: 120px;
@@ -204,26 +207,30 @@ aside hr {
   display: flex;
 }
 
-#navbar .navbar-icon ul {
+.navbar .navbar-icon ul {
   margin-left: 70px;
 }
 
 footer .second li {
   padding: 20px;
+  cursor: pointer;
 }
 
 footer .third li {
   padding: 20px;
+  cursor: pointer;
 }
 
 .video-icons ul li {
   font-size: 14px;
   padding-right: 23px;
+  cursor: pointer;
 }
 
-#navbar .navbar-icon ul li {
+.navbar .navbar-icon ul li {
   display: inline-block;
   margin-left: 20px;
+  cursor: pointer;
 }
 
 .content {
@@ -264,20 +271,23 @@ footer .footer-content {
 .footer-content button {
   padding: 10px;
   margin: 10px;
+  cursor: pointer;
 }
 
-#navbar .search-input button {
+.navbar .search-input button {
   width: 60px;
   height: 35px;
   background-color: #f9f9f9;
   padding-left: 0;
+  cursor: pointer;
 }
 
-#navbar .navbar-icon ul button {
+.navbar .navbar-icon ul button {
   padding: 5px;
   background-color: #167ac6;
   color: #fff;
   border-radius: 4px;
+  cursor: pointer;
 }
 
 footer .first {
