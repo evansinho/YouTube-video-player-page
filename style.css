@@ -1,0 +1,305 @@
+/***** universal styles ******/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html body {
+  font-size: 16px;
+  line-height: 1.4;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #eee;
+}
+
+a {
+  text-decoration: none;
+}
+
+i {
+  color: #909090;
+}
+
+li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3 {
+  padding-bottom: 20px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+/****** Navigation Bar *****/
+
+.navbar {
+  display: grid;
+  grid-template-columns: 2% 15% 60% 20%;
+  padding-top: 15px;
+  padding-left: 30px;
+  background-color: #fff;
+  padding-bottom: -3px;
+  width: 100%;
+}
+
+.navbar .search-input input {
+  width: 550px;
+  height: 35px;
+  padding: 10px;
+  border-radius: 2px;
+}
+
+.navbar .search-input {
+  margin-left: 80px;
+  padding-bottom: 15px;
+}
+
+.navbar .nav-img {
+  margin-top: -10px;
+}
+
+.navbar .nav-icon {
+  padding-top: 7px;
+}
+
+/* Video Section */
+
+.video-section {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  max-width: 1000px;
+  padding-top: 20px;
+}
+
+.video {
+  margin-left: -100px;
+}
+
+.sidebar {
+  display: flex;
+  padding-bottom: 10px;
+}
+
+.slidecontainer {
+  margin-left: 200px;
+}
+
+.slidecontainer h5 {
+  text-overflow: inherit;
+}
+
+.side-videos {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 10px;
+  width: 370px;
+  cursor: pointer;
+}
+
+.side-videos h5 {
+  margin-left: 10px;
+  padding-bottom: 5px;
+}
+
+.side-videos h6 {
+  margin-left: 10px;
+  color: #6a6c91;
+}
+
+.show-more {
+  color: #6a6c91;
+  text-align: center;
+  padding-top: 10px;
+}
+
+/***** Aside ****/
+
+aside {
+  margin-left: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  background-color: #fff;
+  box-shadow: 1px 1px rgba(104, 104, 104, 0.8);
+}
+
+aside hr {
+  width: 350px;
+}
+
+/****** Decription ******/
+
+.video-description {
+  background-color: #fff;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.subscribe {
+  margin-left: 10px;
+  padding-top: 5px;
+  width: 120px;
+}
+
+.subscribe button {
+  color: #909090;
+  background-color: #e0e0e0;
+  padding: 5px;
+  border-radius: 3px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.video-caption {
+  display: grid;
+  grid-template-columns: 55% 45%;
+  width: 100%;
+  margin-top: -20px;
+  margin-bottom: 10px;
+  padding: 5px 5px 20px;
+  border-bottom: 0.5px solid #e0e0e0;
+}
+
+.slidecontainer h5 i {
+  color: blue;
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+}
+
+.avatar-container {
+  display: grid;
+  grid-template-columns: 10% 70% 20%;
+  border-bottom: 0.5px solid #e0e0e0;
+  padding-bottom: 20px;
+  cursor: pointer;
+}
+
+.side-videos img {
+  width: 180px;
+  height: 100px;
+  cursor: pointer;
+}
+
+.navbar .nav-img img {
+  margin-left: -5px;
+  margin-top: 2px;
+  width: 120px;
+}
+
+.video-icons ul {
+  display: flex;
+}
+
+.navbar .navbar-icon ul {
+  margin-left: 70px;
+}
+
+footer .second li {
+  padding: 20px;
+  cursor: pointer;
+}
+
+footer .third li {
+  padding: 20px;
+  cursor: pointer;
+}
+
+.video-icons ul li {
+  font-size: 14px;
+  padding-right: 23px;
+  cursor: pointer;
+}
+
+.navbar .navbar-icon ul li {
+  display: inline-block;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.content {
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.content h3 {
+  padding-bottom: 0;
+  font-size: 13px;
+}
+
+.content p {
+  font-size: 13px;
+  color: #909090;
+}
+
+.content a {
+  text-align: center;
+  color: #909090;
+}
+
+/* Footer Section */
+
+footer {
+  width: 100%;
+  background-color: #fff;
+  margin-top: 50px;
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+footer .footer-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-content button {
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.navbar .search-input button {
+  width: 60px;
+  height: 35px;
+  background-color: #f9f9f9;
+  padding-left: 0;
+  cursor: pointer;
+}
+
+.navbar .navbar-icon ul button {
+  padding: 5px;
+  background-color: #167ac6;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+footer .first {
+  border-bottom: 0.5px solid #909090;
+}
+
+footer .second {
+  margin-bottom: 0;
+}
+
+footer .third {
+  margin-top: -30px;
+  font-size: 12px;
+  color: #909090;
+}
